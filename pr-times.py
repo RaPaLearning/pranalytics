@@ -3,7 +3,7 @@ from github import Github
 from github import Auth
 
 print('starting to browse...')
-github_tok = os.environ['TOK'];
+github_tok = os.environ['TOK']
 print(f'length of TOK is {len(github_tok)}')
 auth = Auth.Token(github_tok)
 
